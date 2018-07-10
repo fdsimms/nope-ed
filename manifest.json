@@ -3,11 +3,11 @@
 
   "name": "Nope-Ed",
   "description": "",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
 
   "content_scripts": [
       {
-        "matches": ["https://*.nytimes.com/"],
+        "matches": ["https://*.nytimes.com/", "https://*.nytimes.com/*"],
         "js": ["main.js"],
         "run_at": "document_end"
       },
